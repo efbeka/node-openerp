@@ -1,0 +1,26 @@
+{
+  "name": "openerp",
+  "version": "0.1.0",
+  "description": "The Node.js client library for OpenERP",
+  "homepage": "http://github.com/efbeka/node-openerp",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/efbeka/node-openerp.git"
+  },
+  "main": "./lib/client.js",
+  "scripts": {
+    "test": "vows --spec ./test/services/*-test.js"
+  },
+  "dependencies": {
+    "request": "2.x",
+    "xmlrpc": "1.1.x"
+  },
+  "devDependencies": {
+    "vows": "0.7.x",
+    "nock": "0.10.x"
+  },
+  "author": "Berger FOTSO <foberken@gmail.com>",
+  "maintainers": [
+    "Berger FOTSO <foberken@gmail.com>"
+  ]
+}
