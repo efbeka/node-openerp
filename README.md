@@ -1,6 +1,8 @@
-# Node-openerp
+# Node-OpenERP
 
 The Node.js OpenERP library enables accessing any OpenERP server's [XML-RPC API](http://doc.openerp.com/trunk/developers/server/02_architecture/#network-communications-and-wsgi).
+
+[![Build Status](https://travis-ci.org/efbeka/node-openerp.png)](https://travis-ci.org/efbeka/node-openerp)
 
 ## Install:
 
