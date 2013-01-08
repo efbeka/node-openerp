@@ -65,4 +65,6 @@ All tests are written with [vows](http://vowsjs.org) and should be run with [npm
 
 ## License
 
-MIT.
+Copyright (C) 2012 Berger Kennedy Fotso
+
+Distributed under the MIT License, see the LICENCE file.
