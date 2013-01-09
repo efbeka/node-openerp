@@ -30,12 +30,12 @@ var client = openerp.createClient({
 });
 ```
 
-The options object contains three required properties:
+The options object contains 4 required properties:
 
 * `username`: The username
 * `password`: The password
 * `database`: The database name
-* `host` & `port`: The uri of the Openerp-server host.
+* `host` & `port`(optional, default to 80): The uri of the Openerp-server host.
 
 
 ### client
